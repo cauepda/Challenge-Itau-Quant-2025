@@ -1,0 +1,29 @@
+{
+  "LOOKBACK": 30,
+  "TRAIN_END": "2024-04-21",
+  "VAL_END": "2025-01-24",
+  "FEATURE_COLS": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "quote_volume",
+    "trades",
+    "taker_buy_base",
+    "taker_buy_quote",
+    "tx_count",
+    "fee_total_btc",
+    "supply_btc",
+    "hash_rate_x",
+    "active_addresses",
+    "difficulty",
+    "hash_rate_y",
+    "blk_size_mean",
+    "miners_revenue_usd",
+    "tx_count_day",
+    "market_cap_usd",
+    "tx_volume_usd",
+    "nvt"
+  ]
+}

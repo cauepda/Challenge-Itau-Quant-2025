@@ -1,0 +1,15 @@
+nvt
+trades
+tx_volume_usd
+fee_total_btc
+active_addresses
+taker_buy_base
+volume
+taker_buy_quote
+quote_volume
+tx_count_day
+tx_count
+miners_revenue_usd
+hash_rate_x
+hash_rate_y
+difficulty

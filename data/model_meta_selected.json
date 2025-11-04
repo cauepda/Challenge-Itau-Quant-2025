@@ -1,0 +1,77 @@
+{
+  "lookback": 30,
+  "features": [
+    "nvt",
+    "trades",
+    "tx_volume_usd",
+    "fee_total_btc",
+    "active_addresses",
+    "taker_buy_base",
+    "volume",
+    "taker_buy_quote",
+    "quote_volume",
+    "tx_count_day",
+    "tx_count",
+    "miners_revenue_usd",
+    "hash_rate_x",
+    "hash_rate_y",
+    "difficulty"
+  ],
+  "class_weight": {
+    "0": 1.0119617224880382,
+    "1": 0.9883177570093458
+  },
+  "val": {
+    "acc": 0.5261044176706827,
+    "prec": 0.6111111111111112,
+    "rec": 0.25384615384615383,
+    "f1": 0.358695652173913,
+    "auc": 0.546218487394958,
+    "mcc": 0.09378530777288623,
+    "cm": [
+      [
+        98,
+        21
+      ],
+      [
+        97,
+        33
+      ]
+    ]
+  },
+  "test": {
+    "acc": 0.512,
+    "prec": 0.521505376344086,
+    "rec": 0.7461538461538462,
+    "f1": 0.6139240506329114,
+    "auc": 0.4825,
+    "mcc": 0.00513676007889003,
+    "cm": [
+      [
+        31,
+        89
+      ],
+      [
+        33,
+        97
+      ]
+    ]
+  },
+  "input_shapes": {
+    "train": [
+      1269,
+      30,
+      15
+    ],
+    "val": [
+      249,
+      30,
+      15
+    ],
+    "test": [
+      250,
+      30,
+      15
+    ]
+  }
+}
